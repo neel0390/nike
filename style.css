@@ -1,4 +1,4 @@
-#container {
+#animation-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
     margin-top: 12rem;
 }
 
-#box {
+#animation-box {
     width: 400px;
     height: 400px;
 
@@ -24,6 +24,9 @@
     /* transform: rotate(360deg); */
     /* transform: skewX(10deg); */
     /* transform: skew(10deg 20deg); */
-    transform: skew(50deg, 50deg);                                                                                                                                                                                                                                                                                                              
+     /* transform: skew(50deg, 50deg);      */
+}
 
+#animation-box:hover {
+    transition: 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.5s;
 }
